@@ -1,5 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const Bai1_1 = require("./Bai1");
-var person = new Bai1_1.Bai1('Duy', 30);
+const Bai2_1 = require("./Bai2");
+const Bai3_1 = require("./Bai3");
+const Bai4_1 = require("./Bai4");
+var person = new Bai1_1.Person('Duy', 30);
+var student = new Bai2_1.Student('Duy', 30, 10);
+var car = new Bai3_1.Car('Vinfast', 'VF3', 2024);
+var rectangle = new Bai4_1.Rectangle(10, 5);
 console.log(person);
+console.log(student);
+console.log(car);
+console.log('Area' + rectangle.calculateArea());
+console.log('Perimeter' + rectangle.calculatePerimeter());

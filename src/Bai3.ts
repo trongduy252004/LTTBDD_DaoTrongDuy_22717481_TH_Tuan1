@@ -1,4 +1,4 @@
-export class Car {
+export class Car1 {
     brand: string;
     model: string;
     year: number;
